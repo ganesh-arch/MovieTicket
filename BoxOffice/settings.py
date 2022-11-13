@@ -54,9 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-SESSION_EXPIRE_SECONDS = 300  # 5 min
-SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
-SESSION_TIMEOUT_REDIRECT= render('rigister.html')
+
 ROOT_URLCONF = 'BoxOffice.urls'
 
 TEMPLATES = [

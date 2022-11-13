@@ -1,2 +1,2 @@
-# MovieTicket
+# DevRev MovieTicket Task
 ![](./login.jpg)
